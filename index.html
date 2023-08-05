@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers-Shop</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -37,6 +38,50 @@
         </div>
         <!-- /.container -->
     </header>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Эксклюзивные цветы и букеты
+                <br>flowers Shop
+            </h1>
+            <p class="hero-description">первая в россии эксклюзивная доставка
+                цветов<br>
+                для людей, которые ценят <b>уникальность</b></p>
+            <!-- Слайдер с цветами -->
+            <div class="swiper-container flowers-slider">
+                <!-- Обертка слайдов -->
+                <div class="swiper-wrapper">
+                    <!-- Слайды -->
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-1.png" alt=""
+                            class="slide-image"></div>
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-2.png" alt=""
+                            class="slide-image"></div>
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-3.png" alt=""
+                            class="slide-image"></div>
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-4.png" alt=""
+                            class="slide-image"></div>
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-5.png" alt=""
+                            class="slide-image"></div>
+                    <div class="swiper-slide"><img
+                            src="img/flowers/flower-6.png" alt=""
+                            class="slide-image"></div>
+                </div>
+                <!-- Стрелки слайдера -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!-- swiper-container -->
+            <span class="cta">Закажите эксклюзивный букет со скидкой 10%</span>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+    <script src="js/swiper-bundle.min.js">
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>

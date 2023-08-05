@@ -71,3 +71,34 @@ body {
   margin-top: 16px;
   font-size: 16px;
 }
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero-title {
+  font-size: 34px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: 0.34px;
+  font-family: 'Gotham Pro Medium';
+}
+
+.hero-description {
+  font-family: 'Gotham Pro Light';
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+  margin-bottom: 87px;
+}
+
+.flowers-slider {
+  width: 100%;
+  text-align: center;
+}
+
+:root {
+  --swiper-navigation-size: 18px;
+}
