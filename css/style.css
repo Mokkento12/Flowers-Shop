@@ -84,11 +84,13 @@ body {
 
 .hero-title {
   font-size: 34px;
+  margin: auto;
   margin-bottom: 33px;
   text-transform: uppercase;
   line-height: normal;
   letter-spacing: 0.34px;
   font-family: 'Gotham Pro Medium';
+  max-width: 652px;
 }
 
 .hero-description {
@@ -97,6 +99,8 @@ body {
   letter-spacing: 0.18px;
   line-height: 1.4;
   margin-bottom: 87px;
+  margin: auto;
+  max-width: 590px;
 }
 
 .flowers-slider {
@@ -428,4 +432,72 @@ body {
   display: block;
   margin-top: 16px;
   font-size: 16px;
+}
+
+@media(max-width:768px) {
+
+  .header,
+  .footer-white {
+    text-align: center;
+  }
+
+  /* .header-contacts {
+    text-align: center;
+  } */
+
+  .header-phone,
+  .header-info,
+  .callback,
+  .footer-info-bottom,
+  .footer-callback {
+    text-align: center;
+  }
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .button {
+    padding: 20px 40px 20px 40px;
+  }
+
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+
+  .card-label {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .footer-info {
+    text-align: left;
+  }
+}
+
+@media(max-width:576px) {
+
+  .offer,
+  .footer-info,
+  .offer-title {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .offer-link,
+  .offer-phone {
+    font-size: 20px;
+  }
 }
